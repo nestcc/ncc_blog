@@ -1,0 +1,114 @@
+# 提供的服务
+
+* 成帧
+* 链路接入
+* 可靠交付
+* 差错检测和纠正
+
+> 若在此实现可靠交互，则需花费大量计算资源，十分不划算。
+
+
+
+# 网络适配器
+
+![Snipaste_2020-12-12_14-19-25](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-12_14-19-25.png)
+
+
+
+# 差错检验和纠正
+
+![Snipaste_2020-12-12_14-21-01](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-12_14-21-01.png)
+
+
+
+## 三种差错检验技术
+
+* 奇偶校验
+* 检验和
+* 循环冗余校验
+
+
+
+
+
+# MAC地址
+
+![Snipaste_2020-12-10_19-10-17](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-10_19-10-17.png)
+
+
+
+# IP地址的分类
+
+![Snipaste_2020-12-10_19-19-45](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-10_19-19-45.png)
+
+
+
+# ARP协议
+
+![Snipaste_2020-12-10_19-45-04](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-10_19-45-04.png)
+
+
+
+# 协议集
+
+* 给每个人一个讲话的机会
+* 该你讲话时你才说话
+* 不要一个人独占整个谈话
+* 如果有问题请举手
+* 当有人讲话时不要打断
+* 当其他人讲话时不要睡觉
+
+
+
+# 信道划分
+
+![Snipaste_2020-12-12_14-38-57](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-12_14-38-57.png)
+
+
+
+# 随机接入协议，时隙ALOHA
+
+* 所有帧由L比特组成
+* 时间被划分为长度为L/R秒的时隙（R为信道全部的速率）
+* 节点只在时隙起点开始传输帧
+* 节点是同步的，每个节点都知道时隙何时开始
+* 如果时隙中有两个或多个帧碰撞，则所有节点在该时隙结束之前检测到该碰撞事件
+
+
+
+
+
+## 载波侦听多路访问
+
+* 在说话之前先监听
+
+>  未完成
+
+
+
+# 轮流协议 
+
+
+
+## 轮询协议
+
+
+
+## 令牌传递协议
+
+
+
+
+
+# 以太网技术 以太网帧结构
+
+![Snipaste_2020-12-12_14-53-30](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-12_14-53-30.png)
+
+
+
+前同步码用于唤醒网卡
+
+
+
+
+

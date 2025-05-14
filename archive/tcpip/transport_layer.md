@@ -1,0 +1,17 @@
+# TCP
+
+# 发送缓存和接收缓存
+
+![Snipaste_2020-12-15_14-06-13](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-15_14-06-13.png)
+
+ 
+
+# 三次握手🤝，四次挥手🙋
+
+
+
+## TCP客户端链接状态
+
+![Snipaste_2020-12-15_15-05-47](/Users/nestcc/project/ncc_blog/source/_posts/tcpip-1/Snipaste_2020-12-15_15-05-47.png)
+
+  
