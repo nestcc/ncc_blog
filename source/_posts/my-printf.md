@@ -2,9 +2,9 @@
 title: 实现c语言中的printf()
 date: 2020-08-11 09:19:36
 tags:
-- C++
+    - C++
 categories:
-- course
+    - [Dev, c++]
 ---
 
 

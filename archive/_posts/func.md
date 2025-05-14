@@ -2,10 +2,10 @@
 title: C++ 函数
 date: 2020-08-06 10:54:28
 tags:
-- C++
-- function
+    - C++
+    - function
 categories:
-- course
+    - [Dev, c++]
 ---
 
 

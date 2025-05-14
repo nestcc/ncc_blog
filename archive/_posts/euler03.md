@@ -2,21 +2,16 @@
 title: 欧拉计划3
 date: 2020-08-06 09:11:45
 tags:
-- C++
-- Euler project
+    - C++
+    - Euler project
 categories:
-- course
+    - Algorithm
 ---
-
-
-
 # **Largest prime factor**
 
 The prime factors of 13195 are 5, 7, 13 and 29.
 
 What is the largest prime factor of the number 600851475143 ?
-
-
 
 ```c++
 #include <stdio.h>
@@ -35,4 +30,3 @@ int main() {
     return 0;
 }
 ```
-

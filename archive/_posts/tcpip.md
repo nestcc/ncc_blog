@@ -2,7 +2,11 @@
 title: TCP/IP的部分知识
 date: 2020-06-17 20:40:42
 categories: 
-- Dev
+tags:
+    - TCP/IP
+    - Web
+categories:
+    - [Dev, Web, TCP/IP]
 ---
 
 # OSI七层模型

@@ -2,18 +2,13 @@
 title: C++数组与指针
 date: 2020-08-13 14:34:50
 tag:
-- C++
-- array
-- pointer
+    - C++
+    - array
+    - pointer
 categories:
-- course
+    - [Dev, c++]
 ---
-
-
-
 # C++中的数组与传参
-
-
 
 ## 一维数组
 
@@ -28,11 +23,11 @@ int main() {
     printf("arr + 1 = %p, &arr[1] = %p, arr + 2 = %p\n", arr + 1, &arr[1], arr + 2);
     char *p = (char *) arr;
     printf("p = %p, p + 1 = %p\n", p, p + 1);
-    
+  
     int n = 123;
     printf("sizeof(n) = %lu\n", sizeof(n));
     printf("sizeof(arr) = %lu\n", sizeof(arr));
-    
+  
     return 0;
 }
 ```
@@ -49,12 +44,9 @@ sizeof(arr) = 40
 
 可以看到:
 
-*   第一行全部为数组首地址的值，
-
-*   第二行分别为arr[1]和arr[2]的地址，我们可以看出[0]，[1]和[2]的地址相差4，即int类型的size。
-*   第三行arr + 1和&arr[1]是一样的，这说明arr[1]和*(arr + 1)是等价的，都可以用于访问arr[1]。
-
-
+* 第一行全部为数组首地址的值，
+* 第二行分别为arr[1]和arr[2]的地址，我们可以看出[0]，[1]和[2]的地址相差4，即int类型的size。
+* 第三行arr + 1和&arr[1]是一样的，这说明arr[1]和*(arr + 1)是等价的，都可以用于访问arr[1]。
 
 因此我们在传参的时候只需要传数组的首地址即可。
 
@@ -66,8 +58,6 @@ void func1(int *a) {
     ...
 }
 ```
-
-
 
 ## 二维数组
 
@@ -91,17 +81,13 @@ num = 0000008797F9F870, num + 1 = 0000008797F9F878
 
 说明num + 1是num第二行的首地址。
 
-
-
 因此不能使用如下方法传二维数组
 
-```c++ 
+```c++
 void func(int **p) {
     ...
 }
 ```
-
-
 
 需要使用
 
@@ -110,8 +96,6 @@ void func(int (*p)[3]) {
     ...
 }
 ```
-
-
 
 # n维数组
 
@@ -126,4 +110,3 @@ void func(int (*p)[3][2]) {
     ...
 }
 ```
-

@@ -2,10 +2,10 @@
 title: C++的运算符及部分数学函数
 date: 2020-07-30 18:50:52
 tags:
-- C++
-- operator
+    - C++
+    - operator
 categories:
-- course
+    - [Dev, c++]
 ---
 
 

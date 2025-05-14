@@ -2,14 +2,11 @@
 title: C++字符串
 date: 2020-08-18 09:29:48
 tags:
-- C++
-- String
+    - C++
+    - String
 categories:
-- course
+    - Dev
 ---
-
-
-
 # c++字符串
 
 头文件：string.h

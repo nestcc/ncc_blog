@@ -2,10 +2,10 @@
 title: 欧拉计划17
 date: 2020-08-08 09:57:29
 tags:
-- C++
-- Euler project
+    - C++
+    - Euler project
 categories:
-- course
+    - Algorithm
 ---
 
 

@@ -2,11 +2,11 @@
 title: Linux用户管理
 date: 2020-10-28 14:53:08
 categories:
-- linux
+    - [Dev, linux]
 tags:
-- course
-- linux
-- shell	
+    - course
+    - linux
+    - shell	
 ---
 
 

@@ -2,10 +2,10 @@
 title: C结构体
 date: 2020-08-22 14:36:00
 tags:
-- C
-- struct
+    - C
+    - struct
 categories:
-- course
+    - [Dev, c++]
 ---
 
 

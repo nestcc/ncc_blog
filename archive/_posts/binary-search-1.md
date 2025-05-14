@@ -2,11 +2,11 @@
 title: 二分查找
 date: 2020-08-15 09:23:36
 tags:
-- algorithm
-- array
-- search
+    - algorithm
+    - array
+    - search
 categories:
-- algorithm
+    - algorithm
 ---
 
 

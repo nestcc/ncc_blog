@@ -2,10 +2,10 @@
 title: C++STL标准库实现2——Vector 实现
 date: 2020-08-03 10:43:01
 tags:
-- Development
-- C++
+    - Development
+    - C++
 categories:
-- Dev
+    - [Dev, c++]
 ---
 
 

@@ -2,10 +2,10 @@
 title: Ubuntu安装MySQL踩坑
 date: 2020-07-29 20:04:35
 tags:
-- MySQL
-- Development
+    - MySQL
+    - Development
 categories:
-- Dev
+    - [Dev, Linux]
 ---
 
 

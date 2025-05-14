@@ -1,22 +1,16 @@
 ---
-
 title: C++宏定义
 date: 2020-08-15 14:05:46
 tags:
-- C++
+    - C++
 categories:
-- course
+    - [Dev, c++]
 ---
-
-
-
 # 如何使用宏
 
 所有带“#”的代码都是宏，例如**#include \<cstdio\>**就是一个宏。
 
 我们有如下几种定义宏的方法。
-
-
 
 ## 定义符号常量
 
@@ -25,16 +19,12 @@ categories:
 #define MAX_N 10000
 ```
 
-
-
 ## 定义表达式
 
 ```c++
 #define MAX(a, b) (a) > (b) ? (a) : (b)
 #define S(a, b) a * b
 ```
-
-
 
 ## 定义代码段
 
@@ -43,8 +33,6 @@ categories:
 	printf("%d\n", a); \
 }
 ```
-
-
 
 ## 变参宏
 
@@ -55,8 +43,6 @@ categories:
 	print("\n");\
 }
 ```
-
-
 
 ## 注意
 
@@ -79,8 +65,6 @@ S(2 + 3, 4 + 5)
 ```c++
 2 + 3 * 4 + 5
 ```
-
-
 
 ## 例
 
@@ -120,11 +104,8 @@ g++ -DDEBUG xxx.cpp	// 用于debug，有log信息
 g++ xxx.cpp // 用于执行，没有log信息
 ```
 
-
-
-
-
 # 预定义的宏
+
 | 说明                     | 函数                    |
 | ------------------------ | ----------------------- |
 | \_\_DATE\_\_             | 日期：M mm dd yyyy      |
@@ -134,8 +115,6 @@ g++ xxx.cpp // 用于执行，没有log信息
 | \_\_func\_\_             | 函数名/非标准           |
 | \_\_FUNC\_\_             | 函数名/非标准           |
 | \_\_PRETTY\_FUNCTION\_\_ | 更详细的函数信息/非标准 |
-
-
 
 # 条件式编译
 
@@ -148,8 +127,6 @@ g++ xxx.cpp // 用于执行，没有log信息
 | #else            |                      |
 | #endif           |                      |
 
-
-
 # 预处理命令
 
 ![cppdefineproc](C:\myProjects\nccBlog\source\cppdefine\cppdefineproc.png)
@@ -159,4 +136,3 @@ g++ xxx.cpp // 用于执行，没有log信息
 c++编译器在预处理阶段会把所有的宏替换为代码，例如将"stdio.h"文件内容拷贝进来。
 
 由于宏的处理发生在预编译阶段，宏的执行速度也是最快的，其处理速度远快于函数。
-

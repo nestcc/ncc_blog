@@ -2,10 +2,10 @@
 title: 线性筛
 date: 2020-08-18 15:03:50
 tags:
-- C++
-- Primes
+    - C++
+    - Primes
 categories:
-- course
+    - [Dev, Algorithm]
 ---
 
 
